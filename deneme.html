@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1000T Pres - SARIGÖZOĞLU</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 700px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            overflow: hidden;
+        }
+        .header {
+            background: linear-gradient(135deg, #2c3e50, #34495e);
+            color: white;
+            padding: 25px 30px;
+            text-align: center;
+        }
+        .header-content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            margin-bottom: 10px;
+        }
+        .company-logo {
+            height: 35px;
+            width: auto;
+            border-radius: 4px;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 26px;
+            font-weight: 600;
+        }
+        .header p {
+            margin: 0;
+            opacity: 0.9;
+            font-size: 15px;
+        }
+        
+        /* NAVIGATION MENU */
+        .main-nav {
+            background: #f8f9fa;
+            padding: 15px;
+            border-bottom: 1px solid #dee2e6;
+        }
+        .nav-buttons {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 10px;
+        }
+        .nav-btn {
+            background: linear-gradient(135deg, #6c757d, #495057);
+            color: white;
+            text-decoration: none;
+            padding: 12px;
+            border-radius: 8px;
+            text-align: center;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+        .nav-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+        }
+        .nav-btn-pres { background: linear-gradient(135deg, #3498db, #2980b9); }
+        .nav-btn-hat { background: linear-gradient(135deg, #27ae60, #219a52); }
+        .nav-btn-makina { background: linear-gradient(135deg, #e67e22, #d35400); }
+        
+        .content {
+            padding: 30px;
+        }
+        .doc-section {
+            margin-bottom: 30px;
+        }
+        .section-title {
+            color: #2c3e50;
+            font-size: 20px;
+            margin-bottom: 15px;
+            padding-bottom: 8px;
+            border-bottom: 3px solid #3498db;
+        }
+        .button-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 12px;
+        }
+        .doc-button {
+            display: block;
+            background: linear-gradient(135deg, #27ae60, #2ecc71);
+            color: white;
+            text-decoration: none;
+            padding: 16px 20px;
+            border-radius: 10px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(39, 174, 96, 0.3);
+            text-align: center;
+            font-size: 15px;
+        }
+        .doc-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(39, 174, 96, 0.4);
+        }
+        .button-blue { 
+            background: linear-gradient(135deg, #3498db, #2980b9);
+            box-shadow: 0 4px 15px rgba(52, 152, 219, 0.3);
+        }
+        .button-blue:hover {
+            box-shadow: 0 6px 20px rgba(52, 152, 219, 0.4);
+        }
+        .button-orange { 
+            background: linear-gradient(135deg, #e67e22, #d35400);
+            box-shadow: 0 4px 15px rgba(230, 126, 34, 0.3);
+        }
+        .button-orange:hover {
+            box-shadow: 0 6px 20px rgba(230, 126, 34, 0.4);
+        }
+        .button-purple { 
+            background: linear-gradient(135deg, #9b59b6, #8e44ad);
+            box-shadow: 0 4px 15px rgba(155, 89, 182, 0.3);
+        }
+        .button-purple:hover {
+            box-shadow: 0 6px 20px rgba(155, 89, 182, 0.4);
+        }
+        .button-red { 
+            background: linear-gradient(135deg, #e74c3c, #c0392b);
+            box-shadow: 0 4px 15px rgba(231, 76, 60, 0.3);
+        }
+        .button-red:hover {
+            box-shadow: 0 6px 20px rgba(231, 76, 60, 0.4);
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background: #f8f9fa;
+            color: #7f8c8d;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="header-content">
+                <img src="https://drive.google.com/uc?export=download&id=14zTCntjfkMrcJMoiIFU7bKRdYwDHR0GW" 
+                     alt="SARIGÖZOĞLU Logo" 
+                     class="company-logo">
+                <h1>SARIGÖZOĞLU AKSARAY</h1>
+            </div>
+            <p>HIDROMODE 1000 TON PRES</p>
+        </div>
+        
+        <!-- ANA NAVIGATION MENÜ -->
+        <div class="main-nav">
+            <div class="nav-buttons">
+                <a href="tum-presler.html" class="nav-btn nav-btn-pres">🏭 Tüm Presler</a>
+                <a href="tum-hatlar.html" class="nav-btn nav-btn-hat">📊 Tüm Hatlar</a>
+                <a href="tum-makineler.html" class="nav-btn nav-btn-makina">⚙️ Tüm Makinalar</a>
+            </div>
+        </div>
+        
+        <!-- 1000T PRES ÖZEL İÇERİĞİ -->
+        <div class="content">
+            <!-- 1000T Pres'e özel butonlar -->
+            <div class="doc-section">
+                <h2 class="section-title">🏢 1000T Pres Santraller</h2>
+                <div class="button-grid">
+                    <a href="https://drive.google.com/uc?export=download&id=1d_8DzxXrzsKdJ09Rv-wwC85uniSdohK3" class="doc-button button-blue" target="_blank">
+                        Ana Pano Santrali
+                    </a>
+                    <!-- Diğer 1000T butonları -->
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>🔄 Son Güncelleme: 24 Kasım 2024</p>
+        </div>
+    </div>
+</body>
+</html>
